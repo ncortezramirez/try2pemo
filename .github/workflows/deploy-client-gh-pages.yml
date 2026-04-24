@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
-      - "Client/**"
+      - "mis321group/Client/**"
       - ".github/workflows/deploy-client-gh-pages.yml"
   workflow_dispatch:
 
@@ -34,7 +34,7 @@ jobs:
       - name: Upload static site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./Client
+          path: ./mis321group/Client
 
       - name: Deploy to GitHub Pages
         id: deployment
