@@ -4,5 +4,5 @@
  * Then set Heroku CORS: Cors__AllowedOrigins=https://YOUR.github.io
  */
 window.APP_CONFIG = {
-  apiBaseUrl: "https://group14-321.herokuapp.com"
+  apiBaseUrl: "https://group14-321-e3dfe9ae2df1.herokuapp.com"
 };

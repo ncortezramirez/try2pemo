@@ -1,6 +1,6 @@
 const API_BASE_URL =
   (typeof window !== "undefined" && window.APP_CONFIG && window.APP_CONFIG.apiBaseUrl) ||
-  "https://group14-321.herokuapp.com";
+  "https://group14-321-e3dfe9ae2df1.herokuapp.com";
 
 const MAX_TITLE_LEN = 500;
 const MAX_NOTE_LEN = 4000;
