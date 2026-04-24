@@ -1,0 +1,28 @@
+# Build
+**/bin/
+**/obj/
+**/out/
+
+# SQLite (regenerated locally; migrations are source of truth)
+**/taskdashboard.db
+**/taskdashboard.db-*
+
+# User-specific
+*.user
+*.suo
+.vs/
+.idea/
+
+# Secrets (never commit keys)
+**/appsettings.*.local.json
+secrets.json
+**/.env
+**/.env.*
+!**/.env.example
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
